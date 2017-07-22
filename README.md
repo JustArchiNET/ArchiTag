@@ -34,6 +34,19 @@ Review `architag --help` for further help.
 
 ---
 
+## Features
+
+Currently ArchiTag can write following Opus metadata blocks into opus-encoded audio file:
+
+- Comment
+- Performer
+- Track number
+- Track total
+
+You can very easily extend it for other metadata blocks.
+
+---
+
 ## Contributions
 
 All contributions are welcome. I coded this small script for myself in order to add missing `opusenc` metadata functionality. You can easily extend it for your own needs and send a pull request back if appropriate!
